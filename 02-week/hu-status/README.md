@@ -14,7 +14,7 @@
 ## 1. User stories worked this week
 | HU ID | Title | Status (todo/doing/done) | Evidence (PR or commit URL) |
 |---|---|---|---|
-| HU-CAN-001 | Define the functional requirements of the football field management system | done | https\://github.com/HERMAR55611/sistemas-distribuidos-2026-b-g1/commit/3fb5205 |
+| HU-CAN-001 | Define the functional requirements of the football field management system | doing | https\://github.com/HERMAR55611/sistemas-distribuidos-2026-b-g1/commit/3fb5205 |
 | HU-CAN-002 | Define the project backlog and team responsibilities | done | https\://github.com/users/soymiguelgomez/projects/2/views/1 |
 
 ## 2. My individual contribution
