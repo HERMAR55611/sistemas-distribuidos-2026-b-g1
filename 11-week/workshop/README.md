@@ -8,7 +8,7 @@ Observability, SLOs and incident response applied to the Futbolix project.
 - TEAM: Futbolix (ftx)
 - DOCS_REPO: https://github.com/code-corhuila/ftx-docs
 - REFLECTION_DOC: https://docs.google.com/document/d/13D9vY0C_IbkgWnxsw0xBo2uby7JMZzUBbynr_B-hdG0/edit?usp=sharing
-- JOURNEY: (defined in CP1)
+- JOURNEY: JOURNEY: Create a court reservation
 <!-- CONFIG-END -->
 
 ## Checkpoints
