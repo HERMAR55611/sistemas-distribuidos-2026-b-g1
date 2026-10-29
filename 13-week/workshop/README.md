@@ -13,5 +13,5 @@ Threat model and security backlog for the Futbolix project.
 - STORIES: https://github.com/code-corhuila/ftx-docs/issues/51 , https://github.com/code-corhuila/ftx-docs/issues/52 , https://github.com/code-corhuila/ftx-docs/issues/53
 - LIBRARY_BOOK: Picouto Ramos, F.; Lorente Perez, I.; Garcia-Moran, J. P.; Ramos Varon, A. A. Hacking y Seguridad en Internet. Alfaomega / Ra-Ma. EDITION, YEAR. Call number: CALL-NUMBER
 - LIBRARY_RECORD_TIME: 2026-10-28 HH:MM
-- REFLECTION_DOC: PASTE-GOOGLE-DOC-LINK
+- REFLECTION_DOC: https://docs.google.com/document/d/1bVkEB2aJ_-BaNeKYq0DHADVs_0m9nxdy1iNrZ68uh2M/edit?usp=sharing
 <!-- CONFIG-END -->
