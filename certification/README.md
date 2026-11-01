@@ -18,8 +18,9 @@
 
 | Date | Hours | Chapters or labs | Evidence file |
 |---|---|---|---|
-| <YYYY-MM-DD> | <h> | <Chapters or labs> | <evidence/NN-....png> |
-| Total | <sum> | | |
+| 2026-10-31 | 0.5 | Account setup and Pre-class Guidance | evidence/00-enrollment.png |
+| 2026-11-01 | 3 | Chapter 1 Architecture Design Methodology on Huawei Cloud | evidence/01-chapter-01.png |
+| Total | 3.5 | | |
 
 ## Labs
 
