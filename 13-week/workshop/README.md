@@ -10,7 +10,8 @@ Threat model and security backlog for the Futbolix project.
 - BOUNDARY: TB1 - React web app (internet) -> api-gateway
 - CLAIM_ISSUE: https://github.com/code-corhuila/ftx-docs/issues/48
 - STRIDE_PR: https://github.com/code-corhuila/ftx-docs/pull/49
-- STORIES: https://github.com/code-corhuila/ftx-docs/issues/51 , https://github.com/code-corhuila/ftx-docs/issues/52 , https://github.com/code-corhuila/ftx-docs/issues/53
+- STORIES: https://github.com/code-corhuila/ftx-docs/issues/51 (D, risk 9, P0) , https://github.com/code-corhuila/ftx-docs/issues/52 (E and S/E, risk 6, P1, related to #54) , https://github.com/code-corhuila/ftx-docs/issues/53 (S, risk 6, P1, related to #59)
+- REVIEW_COMMENT: https://github.com/code-corhuila/ftx-docs/pull/59/changes#r4432509349
 - LIBRARY_BOOK: Picouto Ramos, F.; Lorente Perez, I.; Garcia-Moran, J. P.; Ramos Varon, A. A. Hacking y seguridad en Internet. 1st ed. Mexico: Alfaomega Grupo Editor, 2008. ISBN 978-970-15-1322-4. Call number: 005.8 P318 Ej. 1. Pages used: 132, 249, 263, 345-347.
 - LIBRARY_RECORD_TIME: 2026-10-28 19:00
 - REFLECTION_DOC: https://docs.google.com/document/d/1bVkEB2aJ_-BaNeKYq0DHADVs_0m9nxdy1iNrZ68uh2M/edit?usp=sharing
