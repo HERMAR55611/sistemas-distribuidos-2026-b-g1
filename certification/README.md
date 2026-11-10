@@ -25,7 +25,10 @@
 | 2026-11-04 | 3 | Chapter 4 Cloud Storage Solution Design | evidence/04-chapter-04.png |
 | 2026-11-06 | 3 | Chapter 5 Cloud Network Solution Design | evidence/05-chapter-05.png |
 | 2026-11-06 | 3 | Chapter 6 Cloud Database Solution Design | evidence/06-chapter-06.png |
-| Total | 16.5 | | |
+| 2026-11-07 | 3 | Chapter 7 Cloud Security Solution Design | evidence/07-chapter-07.png |
+| 2026-11-08 | 3 | Chapter 8 Cloud O&M Solution Design | evidence/08-chapter-08.png |
+| 2026-11-10 | 3 | Chapter 9 Distributed Architecture Design | evidence/09-chapter-09.png |
+| Total | 25.5 | | |
 
 ## Labs
 
