@@ -53,4 +53,9 @@
 
 ## Skills summary
 
-<5 to 7 lines in English, first person, naming at least three concrete design techniques from the course.>
+- I learned to identify the components of a microservices architecture and to choose the cloud services that improve each one.
+- I learned to design for high availability by spreading services and databases over two availability zones.
+- I learned to set RTO and RPO for a data store and to pick a disaster recovery pattern, such as active-passive, that meets them.
+- I learned to scale services horizontally with autoscaling (HPA) based on a metric and a threshold.
+- I learned to plan an automated CI/CD pipeline with build, test, image, deployment and rollback stages.
+- I learned to weigh reliability, security, performance, cost and operations before taking an architecture decision.
