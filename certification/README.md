@@ -43,4 +43,14 @@
 | evidence/15-lab-1.png | <Lab name> | <One sentence> | <One sentence> |
 | evidence/16-lab-2.png | <Lab name> | <One sentence> | <One sentence> |
 | evidence/17-lab-3.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/18-lab-4.png | <Lab name> | <One sentence> |
+| evidence/18-lab-4.png | <Lab name> | <One sentence> | <One sentence> |
+
+## Final exam
+
+- Score: 75 / 100 (passing score 70) — PASS
+- Date: 2026-11-14
+- Evidence: evidence/19-final-exam.png
+
+## Skills summary
+
+<5 to 7 lines in English, first person, naming at least three concrete design techniques from the course.>
