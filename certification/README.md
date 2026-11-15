@@ -40,10 +40,10 @@
 
 | Evidence file | Lab name | What I built | What failed first and how I fixed it |
 |---|---|---|---|
-| evidence/15-lab-1.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/16-lab-2.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/17-lab-3.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/18-lab-4.png | <Lab name> | <One sentence> | <One sentence> |
+| evidence/15-lab-1.png | Design Cases and Practices of an O&M Solution | Configured Huawei Cloud LTS and Cloud Eye to collect logs and monitor cloud resources. | At first, the logs were not displayed correctly; I checked the configuration and verified the connection between the resources and the logging service. |
+| evidence/16-lab-2.png | High-Performance Network Solution | Created a cloud network using VPC, EIP, NAT Gateway, DNS and VPC Peering. | Initially, the network connection did not work; I reviewed the routing tables and security rules and corrected the network configuration. |
+| evidence/17-lab-3.png | Highly Elastic Service System | Deployed a distributed and highly elastic service system using Huawei Cloud resources, with Discuz! as an example. | The application initially had deployment and connectivity problems; I checked the configuration and restarted the affected services until the application worked correctly. |
+| evidence/18-lab-4.png | Highly Reliable Database Solution | Practiced configuring database services on Huawei Cloud and reviewed availability and reliability options. | At first, the database connection failed; I checked the connection settings, credentials and network access, then tested the connection again. |
 
 ## Final exam
 
