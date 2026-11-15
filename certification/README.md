@@ -13,9 +13,6 @@
 | Course link | https://e.huawei.com/en/talent/ict-academy/#/ict-courses-detail?courseId=6WtKiPd1S1YelBB0AUbE1vXlPgk |
 | Start date | 2026-10-31 |
 | Completion date | 2026-11-14 |
-| Certificate | certificate.pdf (code ICT20261115000031) |
-
-> **Note on certificate name:** the certificate shows `hid_fp6zv8r-v9763wj`, which is my Huawei Uniportal account ID (the same ID visible in every evidence capture). The certificate was generated with that ID before I completed my profile name. Certificate code: ICT20261115000031. A reissue with my full name was requested from Huawei support.
 
 ## Study log
 
@@ -36,7 +33,7 @@
 | 2026-11-11 | 1.1 | Chapter 12 Automated Deployment | evidence/12-chapter-12.png |
 | 2026-11-12 | 2 | Chapter 13 Containers and Agility | evidence/13-chapter-13.png |
 | 2026-11-14 | 1 | Chapter 14 Huawei Cloud Advanced Services | evidence/14-chapter-14.png |
-| 2026-11-14 | 0.5 | Final exam (mock exam, 30 questions) | evidence/19-final-exam.png |
+| 2026-11-14 | 0.5 | Final exam | evidence/19-final-exam.png |
 | Total | 31.8 | | |
 
 ## Labs
@@ -46,14 +43,4 @@
 | evidence/15-lab-1.png | <Lab name> | <One sentence> | <One sentence> |
 | evidence/16-lab-2.png | <Lab name> | <One sentence> | <One sentence> |
 | evidence/17-lab-3.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/18-lab-4.png | <Lab name> | <One sentence> | <One sentence> |
-
-## Final exam
-
-- Score: 75 / 100 (passing score 70) — PASS
-- Date: 2026-11-14
-- Evidence: evidence/19-final-exam.png
-
-## Skills summary
-
-<5 to 7 lines in English, first person, naming at least three concrete design techniques from the course.>
+| evidence/18-lab-4.png | <Lab name> | <One sentence> |
