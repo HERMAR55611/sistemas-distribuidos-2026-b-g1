@@ -22,8 +22,9 @@
 | HU-RES-002 | Reservations API: idempotency, outbox events, admin guard (ftx-reservations-api) | done | https://github.com/code-corhuila/ftx-reservations-api/pull/1 |
 | ADR-004 | API gateway: routing, header hygiene, rate limiting (ftx-api-gateway) | done | https://github.com/code-corhuila/ftx-api-gateway/pull/1 |
 | ADR-010 | Platform composition and failure-injection demo (ftx-workflow) | done | https://github.com/code-corhuila/ftx-workflow/pull/1 |
-| Release v3.0.0 | Promotion develop -> qa -> release.3.0.0 -> main (cherry-pick -x) | doing | https://github.com/code-corhuila/ftx-reservations-api/pull/4 |
-| Release v3.0.0 | CHANGELOG 3.0.0 and ADR-013 | doing | https://github.com/code-corhuila/ftx-docs/pull/68 |
+| Release v3.0.0 | Promotion develop -> qa -> release.3.0.0 -> main (cherry-pick -x) | done | https://github.com/code-corhuila/ftx-reservations-api/pull/4 |
+| Release v3.0.0 | Tag v3.0.0 on main in the four repositories | done | https://github.com/code-corhuila/ftx-reservations-api/releases/tag/v3.0.0 |
+| Release v3.0.0 | CHANGELOG 3.0.0 and ADR-013 | done | https://github.com/code-corhuila/ftx-docs/pull/68 |
 
 ## 2. My individual contribution
 - As tech lead I reviewed and approved the four pull requests waiting for me; each one now has two approvals and no conflicts with its base branch.
@@ -35,15 +36,19 @@
 - I ran the tests locally with Docker because the CI is blocked: ftx-reservations-api `mvn verify` BUILD SUCCESS (8 concurrent requests for one slot leave exactly one reservation), ftx-api-gateway 10/10, ftx-reservations-db 17 checks. I fixed the failing tests before merging.
 - I promoted the four repositories develop (#1) -> qa (#2) -> release.3.0.0 (#3) with `git cherry-pick -x` and opened the PRs to main (#4) for the instructor's approval.
 - I recorded ADR-013 and the CHANGELOG 3.0.0 entry in ftx-docs (#68).
+- On Sunday Nov 15, after the instructor approved the PRs #4, I merged them to main in the four repositories and created the release v3.0.0 on main in each one; ftx-docs#68 was merged too.
+- I tried to run the ftx-infra-postgres platform of Edwin on my computer and sent him the literal result, so he could check his changes.
 
 ## 3. Blockers and risks
 - The CI of the code-corhuila repositories does not start: "recent account payments have failed or your spending limit needs to be increased" (GitHub Actions minutes). Tests must be run locally with Docker.
 - Release risks: ftx-infra-postgres README must allow starting the system only by following it, and the seed data must not contain an administrator with a fixed password.
+- Docker Desktop does not start on my computer (engine error 500), so the team demo runs on Edwin's computer.
+- Edwin needs write access to ftx-infra-postgres to push the reservations_app login user, README and runbook RB-001.
 
 ## 4. Plan for next week
-- Tag v3.0.0 on main after the instructor approves the PRs #4.
-- Run `ftx-workflow/demo-falla.bat` with the whole team (needs RESERVATIONS_APP_PASSWORD in the env file of ftx-infra-postgres) and defend the release.
-- Merge ftx-docs#68 after the team reviews ADR-013.
+- Defend the release on Tuesday Nov 17: team demo end to end with a controlled failure, and answer the individual questions about my contribution.
+- Run the demo with the ftx-infra-postgres platform of Edwin, with my repositories taken from main (tag v3.0.0).
+- Defend my Huawei certification design note in the week 16 class.
 
 ## 5. Compliance self-check
 - [x] Conventional Commits - `type(scope): summary`
@@ -58,3 +63,5 @@
 - Failed workflow run (billing): https://github.com/code-corhuila/ftx-docs/actions/runs/42832354532
 - My PRs in ftx-reservations-api: https://github.com/code-corhuila/ftx-reservations-api/pulls?q=author%3AHERMAR55611
 - My PRs in ftx-api-gateway: https://github.com/code-corhuila/ftx-api-gateway/pulls?q=author%3AHERMAR55611
+- Release v3.0.0: https://github.com/code-corhuila/ftx-reservations-api/releases/tag/v3.0.0
+- ftx-docs#68 (ADR-013 and CHANGELOG 3.0.0): https://github.com/code-corhuila/ftx-docs/pull/68
