@@ -18,7 +18,12 @@
 | ftx-front#6 | Review: enable the fourth court in the mock data | done | https://github.com/code-corhuila/ftx-front/pull/6#pullrequestreview-5850491773 |
 | HU-RES-002 (ftx-front#8) | Review: reject reservations that start before the current time | done | https://github.com/code-corhuila/ftx-front/pull/8#pullrequestreview-5850518231 |
 | HU-RES-002 (ftx-front#10) | Review: tests for reservation code, slot conflict, lookup 404 and admin guard | done | https://github.com/code-corhuila/ftx-front/pull/10#pullrequestreview-5850542367 |
-| Release v3.0.0 | MVP 3 release of the team repositories | doing | - |
+| HU-RES-002 | Reservations schema with engine-level double-booking guarantee (ftx-reservations-db) | done | https://github.com/code-corhuila/ftx-reservations-db/pull/1 |
+| HU-RES-002 | Reservations API: idempotency, outbox events, admin guard (ftx-reservations-api) | done | https://github.com/code-corhuila/ftx-reservations-api/pull/1 |
+| ADR-004 | API gateway: routing, header hygiene, rate limiting (ftx-api-gateway) | done | https://github.com/code-corhuila/ftx-api-gateway/pull/1 |
+| ADR-010 | Platform composition and failure-injection demo (ftx-workflow) | done | https://github.com/code-corhuila/ftx-workflow/pull/1 |
+| Release v3.0.0 | Promotion develop -> qa -> release.3.0.0 -> main (cherry-pick -x) | doing | https://github.com/code-corhuila/ftx-reservations-api/pull/4 |
+| Release v3.0.0 | CHANGELOG 3.0.0 and ADR-013 | doing | https://github.com/code-corhuila/ftx-docs/pull/68 |
 
 ## 2. My individual contribution
 - As tech lead I reviewed and approved the four pull requests waiting for me; each one now has two approvals and no conflicts with its base branch.
@@ -26,14 +31,19 @@
 - In ftx-front#8 I checked that its dependency #7 was merged and flagged that the minute-level rule is still missing in HU-RES-002 and in the 422 of reservation-service.yaml.
 - In ftx-front#10 I linked the tests to rows 1 and 6 of the TB1 STRIDE (same "not found" message for 404 and RequireAdmin).
 - I checked why the ftx-docs workflows fail on main: it is a billing problem of the organization, not a code error.
+- On Saturday Nov 14 I delivered my four repositories for MVP 3 (with AI assistance, commits co-authored): ftx-reservations-db, ftx-reservations-api, ftx-api-gateway and ftx-workflow, each with Conventional Commits on hu-res-002-dev and a PR to develop.
+- I ran the tests locally with Docker because the CI is blocked: ftx-reservations-api `mvn verify` BUILD SUCCESS (8 concurrent requests for one slot leave exactly one reservation), ftx-api-gateway 10/10, ftx-reservations-db 17 checks. I fixed the failing tests before merging.
+- I promoted the four repositories develop (#1) -> qa (#2) -> release.3.0.0 (#3) with `git cherry-pick -x` and opened the PRs to main (#4) for the instructor's approval.
+- I recorded ADR-013 and the CHANGELOG 3.0.0 entry in ftx-docs (#68).
 
 ## 3. Blockers and risks
 - The CI of the code-corhuila repositories does not start: "recent account payments have failed or your spending limit needs to be increased" (GitHub Actions minutes). Tests must be run locally with Docker.
 - Release risks: ftx-infra-postgres README must allow starting the system only by following it, and the seed data must not contain an administrator with a fixed password.
 
 ## 4. Plan for next week
-- Merge ftx-front#8 and then #10 into develop with the author, promote to qa and main, and tag v3.0.0.
-- Run the live demo with an injected failure and defend the release.
+- Tag v3.0.0 on main after the instructor approves the PRs #4.
+- Run `ftx-workflow/demo-falla.bat` with the whole team (needs RESERVATIONS_APP_PASSWORD in the env file of ftx-infra-postgres) and defend the release.
+- Merge ftx-docs#68 after the team reviews ADR-013.
 
 ## 5. Compliance self-check
 - [x] Conventional Commits - `type(scope): summary`
@@ -46,3 +56,5 @@
 ## 6. Evidence links
 - Reviews requested to me: https://github.com/pulls/review-requested
 - Failed workflow run (billing): https://github.com/code-corhuila/ftx-docs/actions/runs/42832354532
+- My PRs in ftx-reservations-api: https://github.com/code-corhuila/ftx-reservations-api/pulls?q=author%3AHERMAR55611
+- My PRs in ftx-api-gateway: https://github.com/code-corhuila/ftx-api-gateway/pulls?q=author%3AHERMAR55611
